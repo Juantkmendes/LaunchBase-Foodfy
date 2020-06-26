@@ -1,0 +1,23 @@
+:root {
+    --color-black: #111111;
+    --color-gray: #777777;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    color: var(--color-black);
+}
+
+h1, h2, p {
+    font-family: Roboto, sans-serif;
+    color: var(--color-black);
+}
+
+h3 {
+    font-family: Roboto, sans-serif;
+    color: var(--color-gray);
+}

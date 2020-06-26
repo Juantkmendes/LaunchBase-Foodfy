@@ -1,0 +1,109 @@
+.content {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 36px;
+    margin-bottom: 30px;
+}
+
+header .links {
+    width: 78%;
+}
+
+header .links a {
+    padding-right: 30px;
+}
+
+.banner {
+    background-color: #FBDFDB;
+    width: 940px;
+    height: 366px;
+    border-radius: 30px;
+    display: flex;
+    background-image: url(../../assets/chef.png);
+    background-repeat: no-repeat;
+    background-position: 90% 100%;
+}
+
+.banner .home-banner {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.banner .home-banner h1 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 10px;
+}
+
+.banner .home-banner p {
+    max-width: 316px;
+    opacity: 0.7;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+    line-height: 28px;
+}
+
+.header-recipes h1 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.recipes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 300px;
+}
+
+.recipe .recipe-image img {
+    border-radius: 15px;
+    width: 300px;
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+.recipe .recipe-name h2 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 5px;
+}
+
+.recipe .recipe-owner h3 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #EEEEEE;
+    height: 62px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .home-footer {
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    line-height: 16px;
+}
